@@ -1,0 +1,12 @@
+{
+  "option.skin-layers-hide.all.category": "Skin Layers hide - Все",
+  "option.skin-key-all": "вкл/викл Все [Все зникає, крім плаща]",
+  "option.skin-layers-hide.parts.category": "Skin Layers hide - Частини",
+  "option.skin-key-hat": "вкл/викл Голова",
+  "option.skin-key-jacket": "вкл/выкл ",
+  "option.skin-key-right-sleeve": "вкл/викл Права рука",
+  "option.skin-key-left-sleeve": "вкл/викл Ліва рука",
+  "option.skin-key-right-pains-leg": "вкл/викл Права нога",
+  "option.skin-key-left-pains-leg": "вкл/викл Ліва нога",
+  "option.skin-key-cape": "вкл/викл Плащ"
+}

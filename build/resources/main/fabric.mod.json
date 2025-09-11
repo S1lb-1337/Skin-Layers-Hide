@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "skin-layers-hide",
+  "version": "1.0",
+  "name": "Skin layers hide",
+  "description": "Switch skin layers by hotkeys",
+  "authors": [
+    "C1lb"
+  ],
+  "contact": {
+    "repo": "https://github.com/C1lb"
+  },
+  "license": "MIT",
+  "icon": "assets/skin-layers-hide/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "name.net.c1lb.skinlayershide.client.SkinLayersHideClient"
+    ],
+    "main": [
+      "name.net.c1lb.skinlayershide.SkinLayersHide"
+    ]
+  },
+  "mixins": [
+    "skin-layers-hide.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "fabric": "*",
+    "minecraft": "1.18.*"
+  }
+}
