@@ -1,12 +1,13 @@
 {
-  "option.skin-layers-hide.all.category": "Skin Layers hide - Все",
-  "option.skin-key-all": "Все вкл/выкл [Все исчезает, кроме плаща]",
-  "option.skin-layers-hide.parts.category": "Skin Layers hide - Части",
-  "option.skin-key-hat": "Голова вкл/выкл",
-  "option.skin-key-jacket": "Тело вкл/выкл",
+  "option.skin-layers-hide.all.category": "Skin Layers Hide - Всё",
+  "option.skin-key-all": "Вкл/выкл всех слоёв",
+  "option.skin-key-all-no-cape": "Вкл/выкл всех слоёв (плащ не отключается)",
+  "option.skin-layers-hide.parts.category": "Skin Layers Hide - Части",
+  "option.skin-key-hat": "Шляпа вкл/выкл",
+  "option.skin-key-jacket": "Куртка вкл/выкл",
   "option.skin-key-right-sleeve": "Правая рука вкл/выкл",
   "option.skin-key-left-sleeve": "Левая рука вкл/выкл",
-  "option.skin-key-right-pains-leg": "Правая нога вкл/выкл",
-  "option.skin-key-left-pains-leg": "Левая нога вкл/выкл",
+  "option.skin-key-right-pains-leg": "Правая штанина вкл/выкл",
+  "option.skin-key-left-pains-leg": "Левая штанина вкл/выкл",
   "option.skin-key-cape": "Плащ вкл/выкл"
 }

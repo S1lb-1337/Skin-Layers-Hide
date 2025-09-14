@@ -1,7 +1,8 @@
 {
-  "option.skin-layers-hide.all.category": "Skin layers hide - All",
-  "option.skin-key-all": "All layer on/off (Everything disappears except the cape)",
-  "option.skin-layers-hide.parts.category": "Skin layers hide - Parts",
+  "option.skin-layers-hide.all.category": "Skin Layers Hide - All",
+  "option.skin-key-all": "All layer on/off",
+  "option.skin-key-all-no-cape": "All layer on/off (The cape does not turn off)",
+  "option.skin-layers-hide.parts.category": "Skin Layers Hide - Parts",
   "option.skin-key-hat": "Hat on/off",
   "option.skin-key-jacket": "Jacket on/off",
   "option.skin-key-right-sleeve": "Right sleeve on/off",

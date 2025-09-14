@@ -23,51 +23,66 @@ public class SkinLayersHideClient implements ClientModInitializer
         final boolean[] SkinLayersHideLegs = {false};
         // All
         KeyBinding skin_key_all = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "All layer on/off [Everything disappears except the cape]",
+                "option.skin-key-all",
                 InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,
-                "All layer on/off"));
+                "option.skin-layers-hide.all.category"));
+        // All no cape
+        KeyBinding skin_key_all_no_cape = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+                "option.skin-key-all-no-cape",
+                InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,
+                "option.skin-layers-hide.all.category"));
         //Hat
         KeyBinding skin_key_hat = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "Hat on/off",
+                "option.skin-key-hat",
                 InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,
-                "Skin layers hide - Parts"));
+                "option.skin-layers-hide.parts.category"));
         //Body
         KeyBinding skin_key_jacket = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "Jacket on/off",
+                "option.skin-key-jacket",
                 InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,
-                "Skin layers hide - Parts"));
+                "option.skin-layers-hide.parts.category"));
         //Right hand
         KeyBinding skin_key_right_sleeve = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "Right sleeve on/off",
+                "option.skin-key-right-sleeve",
                 InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,
-                "Skin layers hide - Parts"));
+                "option.skin-layers-hide.parts.category"));
         //Left hand
         KeyBinding skin_key_left_sleeve = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "Left sleeve on/off",
+                "option.skin-key-left-sleeve",
                 InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,
-                "Skin layers hide - Parts"));
+                "option.skin-layers-hide.parts.category"));
         //Right leg
         KeyBinding skin_key_right_pains_leg = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "Right pains leg on/off",
+                "option.skin-key-right-pains-leg",
                 InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,
-                "Skin layers hide - Parts"));
+                "option.skin-layers-hide.parts.category"));
         //Left leg
         KeyBinding skin_key_left_pains_leg = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "Left pains leg on/off",
+                "option.skin-key-left-pains-leg",
                 InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,
-                "Skin layers hide - Parts"));
+                "option.skin-layers-hide.parts.category"));
         //Cape
         KeyBinding skin_key_cape = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "Cape on/off",
+                "option.skin-key-cape",
                 InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_UNKNOWN,
-                "Skin layers hide - Parts"));
+                "option.skin-layers-hide.parts.category"));
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             // Grups
 
             // On/off all layers
+            while (skin_key_all_no_cape.wasPressed()) {
+                MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.JACKET, SkinLayersHideAll[0]);
+                MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.LEFT_SLEEVE, SkinLayersHideAll[0]);
+                MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.RIGHT_SLEEVE, SkinLayersHideAll[0]);
+                MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.LEFT_PANTS_LEG, SkinLayersHideAll[0]);
+                MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.RIGHT_PANTS_LEG, SkinLayersHideAll[0]);
+                MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.HAT, SkinLayersHideAll[0]);
+                SkinLayersHideAll[0] = !SkinLayersHideAll[0];
+            }
+            //all
             while (skin_key_all.wasPressed()) {
-                //MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.CAPE, SkinLayersHideAll[0]);
+                MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.CAPE, SkinLayersHideAll[0]);
                 MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.JACKET, SkinLayersHideAll[0]);
                 MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.LEFT_SLEEVE, SkinLayersHideAll[0]);
                 MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.RIGHT_SLEEVE, SkinLayersHideAll[0]);
@@ -77,19 +92,6 @@ public class SkinLayersHideClient implements ClientModInitializer
                 SkinLayersHideAll[0] = !SkinLayersHideAll[0];
             }
 
-
-            // On/off hat
-            /*while (skin_key_hat.wasPressed()) {
-                mc.togglePlayerModelPart(PlayerModelPart.HAT,
-                !mc.isPlayerModelPartEnabled(PlayerModelPart.HAT)
-                );
-                System.out.println(skin_key_hat.wasPressed()
-                );
-                System.out.println(skin_key_jacket.wasPressed()
-                );
-                System.out.println(skin_key_right_sleeve.wasPressed()
-                );
-            }*/
             while (skin_key_hat.wasPressed()) {
                 MinecraftClient.getInstance().options.togglePlayerModelPart(PlayerModelPart.HAT, !MinecraftClient.getInstance().options.isPlayerModelPartEnabled(PlayerModelPart.HAT));
                 if (skin_key_hat.equals(skin_key_jacket)) {
@@ -171,14 +173,6 @@ public class SkinLayersHideClient implements ClientModInitializer
                     );
                 }
             }
-            // On/off body
-            /*while (skin_key_jacket.wasPressed()) {
-                MinecraftClient.getInstance().options.togglePlayerModelPart(
-                PlayerModelPart.JACKET,
-                !MinecraftClient.getInstance().options.isPlayerModelPartEnabled(
-                PlayerModelPart.JACKET)
-                );
-            }*/
             // On/off Right hand
             while (skin_key_right_sleeve.wasPressed()) {
                 if (skin_key_right_sleeve.equals(skin_key_hat)) {

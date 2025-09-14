@@ -1,12 +1,13 @@
 {
-  "option.skin-layers-hide.all.category": "Схаванне слаёў скуры - Усё",
-  "option.skin-key-all": "Уключыць/выключыць усё [Знікае ўсё, акрамя плашча]",
-  "option.skin-layers-hide.parts.category": "Схаванне слаёў скуры - Часткі",
-  "option.skin-key-hat": "Галава уключыць/выключыць",
-  "option.skin-key-jacket": "Цела уключыць/выключыць",
-  "option.skin-key-right-sleeve": "Правая рука уключыць/выключыць",
-  "option.skin-key-left-sleeve": "Левая рука уключыць/выключыць",
-  "option.skin-key-right-pains-leg": "Правай нагі уключыць/выключыць",
-  "option.skin-key-left-pains-leg": "Левай нагі уключыць/выключыць",
-  "option.skin-key-cape": "Плашч уключыць/выключыць"
+  "option.skin-layers-hide.all.category": "Skin Layers Hide - Усё",
+  "option.skin-key-all": "Укл/выкл усе пласты",
+  "option.skin-key-all-no-cape": "Укл/выкл усе пласты (плашч не выключаецца)",
+  "option.skin-layers-hide.parts.category": "Skin Layers Hide - Часткі",
+  "option.skin-key-hat": "Капялюш укл/выкл",
+  "option.skin-key-jacket": "Куртка ўкл/выкл",
+  "option.skin-key-right-sleeve": "Правая рукаў укл/выкл",
+  "option.skin-key-left-sleeve": "Левая рукаў укл/выкл",
+  "option.skin-key-right-pains-leg": "Правая штаніна ўкл/выкл",
+  "option.skin-key-left-pains-leg": "Левая штаніна ўкл/выкл",
+  "option.skin-key-cape": "Плашч укл/выкл"
 }

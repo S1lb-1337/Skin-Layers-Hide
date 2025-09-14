@@ -1,0 +1,13 @@
+{
+  "option.skin-layers-hide.all.category": "Skin Layers Hide - 全部",
+  "option.skin-key-all": "开启/关闭全部图层",
+  "option.skin-key-all-no-cape": "开启/关闭全部图层（披风除外）",
+  "option.skin-layers-hide.parts.category": "Skin Layers Hide - 部分",
+  "option.skin-key-hat": "帽子 开/关",
+  "option.skin-key-jacket": "夹克 开/关",
+  "option.skin-key-right-sleeve": "右袖子 开/关",
+  "option.skin-key-left-sleeve": "左袖子 开/关",
+  "option.skin-key-right-pains-leg": "右裤腿 开/关",
+  "option.skin-key-left-pains-leg": "左裤腿 开/关",
+  "option.skin-key-cape": "披风 开/关"
+}

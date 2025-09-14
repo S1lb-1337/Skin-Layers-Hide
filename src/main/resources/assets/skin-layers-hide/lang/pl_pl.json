@@ -1,12 +1,13 @@
 {
-  "option.skin-layers-hide.all.category": "Ukrywanie warstw skóry - Wszystko",
-  "option.skin-key-all": "Włącz/wyłącz wszystko [Znika wszystko oprócz peleryny]",
-  "option.skin-layers-hide.parts.category": "Ukrywanie warstw skóry - Części",
-  "option.skin-key-hat": "Głowa włącz/wyłącz",
-  "option.skin-key-jacket": "Tułów włącz/wyłącz",
-  "option.skin-key-right-sleeve": "Prawa ręka włącz/wyłącz",
-  "option.skin-key-left-sleeve": "Lewa ręka włącz/wyłącz",
-  "option.skin-key-right-pains-leg": "Prawa noga włącz/wyłącz",
-  "option.skin-key-left-pains-leg": "Lewa noga włącz/wyłącz",
-  "option.skin-key-cape": "Peleryna włącz/wyłącz"
+  "option.skin-layers-hide.all.category": "Skin Layers Hide - Wszystko",
+  "option.skin-key-all": "Wł/wył wszystkie warstwy",
+  "option.skin-key-all-no-cape": "Wł/wył wszystkie warstwy (peleryna zostaje)",
+  "option.skin-layers-hide.parts.category": "Skin Layers Hide - Części",
+  "option.skin-key-hat": "Czapka wł./wył",
+  "option.skin-key-jacket": "Kurtka wł./wył",
+  "option.skin-key-right-sleeve": "Prawy rękaw wł./wył",
+  "option.skin-key-left-sleeve": "Lewy rękaw wł./wył",
+  "option.skin-key-right-pains-leg": "Prawa nogawka wł./wył.",
+  "option.skin-key-left-pains-leg": "Lewa nogawka wł./wył.",
+  "option.skin-key-cape": "Peleryna wł./wył."
 }

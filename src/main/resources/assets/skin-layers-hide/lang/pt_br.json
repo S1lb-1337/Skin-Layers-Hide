@@ -1,0 +1,13 @@
+{
+  "option.skin-layers-hide.all.category": "Skin Layers Hide - Tudo",
+  "option.skin-key-all": "Ativar/desativar todas as camadas",
+  "option.skin-key-all-no-cape": "Ativar/desativar todas as camadas (a capa permanece)",
+  "option.skin-layers-hide.parts.category": "Skin Layers Hide - Partes",
+  "option.skin-key-hat": "Chapéu ligar/desligar",
+  "option.skin-key-jacket": "Jaqueta ligar/desligar",
+  "option.skin-key-right-sleeve": "Manga direita ligar/desligar",
+  "option.skin-key-left-sleeve": "Manga esquerda ligar/desligar",
+  "option.skin-key-right-pains-leg": "Perna direita da calça ligar/desligar",
+  "option.skin-key-left-pains-leg": "Perna esquerda da calça ligar/desligar",
+  "option.skin-key-cape": "Capa ligar/desligar"
+}

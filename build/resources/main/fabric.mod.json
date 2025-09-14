@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "skin-layers-hide",
-  "version": "1.0",
+  "version": "1.1",
   "name": "Skin layers hide",
   "description": "Switch skin layers by hotkeys",
   "authors": [

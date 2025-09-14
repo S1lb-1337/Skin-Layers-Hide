@@ -1,12 +1,13 @@
 {
-  "option.skin-layers-hide.all.category": "スキンレイヤー非表示 - すべて",
-  "option.skin-key-all": "すべてオン/オフ [マント以外すべて非表示]",
-  "option.skin-layers-hide.parts.category": "スキンレイヤー非表示 - 部分",
-  "option.skin-key-hat": "頭部 オン/オフ",
-  "option.skin-key-jacket": "胴体 オン/オフ",
-  "option.skin-key-right-sleeve": "右腕 オン/オフ",
-  "option.skin-key-left-sleeve": "左腕 オン/オフ",
-  "option.skin-key-right-pains-leg": "右脚 オン/オフ",
-  "option.skin-key-left-pains-leg": "左脚 オン/オフ",
+  "option.skin-layers-hide.all.category": "Skin Layers Hide - 全て",
+  "option.skin-key-all": "全レイヤーのオン/オフ",
+  "option.skin-key-all-no-cape": "全レイヤーのオン/オフ（マントは除く）",
+  "option.skin-layers-hide.parts.category": "Skin Layers Hide - 部位",
+  "option.skin-key-hat": "帽子 オン/オフ",
+  "option.skin-key-jacket": "ジャケット オン/オフ",
+  "option.skin-key-right-sleeve": "右袖 オン/オフ",
+  "option.skin-key-left-sleeve": "左袖 オン/オフ",
+  "option.skin-key-right-pains-leg": "右足 オン/オフ",
+  "option.skin-key-left-pains-leg": "左足 オン/オフ",
   "option.skin-key-cape": "マント オン/オフ"
 }
