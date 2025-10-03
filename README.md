@@ -1,4 +1,4 @@
-# skin-layers-hide
+# Skin Layers Hide
 Switch skin layers by hotkeys
 
 To change the bind, go to the settings and there will be categories.
@@ -19,5 +19,3 @@ To change the bind, go to the settings and there will be categories.
 - Right leg 
 - Left leg
 - Cape
-
-![](C:\Users\xyz\Desktop\Skin Layers Hide\Fabric\SkinLayersHide 1.18\image.png) ![](C:\Users\xyz\Desktop\Skin Layers Hide\For mod\GIF Icon 2.png)
