@@ -8,8 +8,8 @@ To change the bind, go to the settings and there will be categories.
 - All (The cape does not turn off)
 
 "Skin layers hide - Groups"
-- Top
-- Bottom
+- Body
+- Pants
 
 "Skin layers hide - Parts"
 - Hat
