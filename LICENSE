@@ -1,29 +1,33 @@
-C1Eye License
+ClosedEyes License (CEL) v1.0
 
-Copyright (c) 2025 C1lb
+Copyright (c) 2026 S1lb
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this file and associated documentation (the "File"), to use, copy, modify, and distribute the File, including modified versions, subject to the following conditions:
+Permission is granted to use and modify the files included in this repository (the “Software”) 
+for personal or internal purposes only, under the following terms:
 
-Attribution
+USE AND MODIFICATION
+You may use and modify the Software on your local machine or private projects.
 
-You must provide a link to the official/original file.
-You must credit the original author by name or nickname.
-You must clearly state that the File is licensed under the C1Eye License.
+NO PUBLICATION OR REDISTRIBUTION
+You may NOT:
+Publish original or modified versions of the Software.
+Distribute, sublicense, sell, reupload, or make publicly accessible
+the Software in whole or in part.
 
-Chain of Attribution
+ADDON EXCEPTION
+You are allowed to publish an addon created for the Software under these conditions:
+The addon must not include original Software files.
+The addon description MUST clearly state the name of the original mod 
+for which it was created.
+Addons must function only as extensions and not as replacements of 
+the original Software.
 
-If you modify a version of the File that was already modified by another author, you must credit all previous authors and provide links to their versions (if available).
+NO COMMERCIAL USE
+Commercial use of the Software or any modified version is strictly prohibited.
 
-Copyleft Requirement
+OWNERSHIP
+The Software remains the exclusive intellectual property of the original author.
 
-Any modified or redistributed version of the File must remain under the C1Eye License.
-You may not sublicense or distribute under a different license.
-
-Commercial Use
-
-Commercial use is permitted, provided the above conditions are met.
-
-No Warranty
-
-THE FILE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE FILE OR THE USE OR OTHER DEALINGS IN THE FILE.
+DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED “AS IS,” WITHOUT ANY WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+THE AUTHOR IS NOT RESPONSIBLE FOR ANY DAMAGES OR ISSUES CAUSED BY THE USE OF THIS SOFTWARE.
